@@ -1,0 +1,8 @@
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\bin\Release\AutoClicker.exe.config
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\bin\Release\AutoClicker.exe
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\bin\Release\AutoClicker.pdb
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Release\AutoClicker.frmMain.resources
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Release\AutoClicker.Properties.Resources.resources
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Release\AutoClicker.csproj.GenerateResource.Cache
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Release\AutoClicker.exe
+c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Release\AutoClicker.pdb
