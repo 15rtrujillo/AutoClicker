@@ -7,3 +7,13 @@ c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker
 c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csproj.GenerateResource.Cache
 c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.exe
 c:\users\ryant_000\documents\visual studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.pdb
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.exe.config
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.exe
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.pdb
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csprojAssemblyReference.cache
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.frmMain.resources
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.Properties.Resources.resources
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csproj.GenerateResource.cache
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csproj.CoreCompileInputs.cache
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.exe
+D:\Ryan\Documents\Visual Studio 2017\Projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.pdb

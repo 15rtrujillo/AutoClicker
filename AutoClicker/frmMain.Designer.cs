@@ -28,93 +28,98 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
-			this.numInterval = new System.Windows.Forms.NumericUpDown();
-			this.btnStart = new System.Windows.Forms.Button();
-			this.btnStop = new System.Windows.Forms.Button();
-			this.tmrClick = new System.Windows.Forms.Timer(this.components);
-			this.lblInterval = new System.Windows.Forms.Label();
-			((System.ComponentModel.ISupportInitialize)(this.numInterval)).BeginInit();
-			this.SuspendLayout();
-			// 
-			// numInterval
-			// 
-			this.numInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.numInterval.Location = new System.Drawing.Point(72, 12);
-			this.numInterval.Maximum = new decimal(new int[] {
+            this.components = new System.ComponentModel.Container();
+            this.numInterval = new System.Windows.Forms.NumericUpDown();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.tmrClick = new System.Windows.Forms.Timer(this.components);
+            this.lblInterval = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numInterval)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // numInterval
+            // 
+            this.numInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numInterval.Location = new System.Drawing.Point(96, 15);
+            this.numInterval.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numInterval.Maximum = new decimal(new int[] {
             120000,
             0,
             0,
             0});
-			this.numInterval.Minimum = new decimal(new int[] {
-            100,
+            this.numInterval.Minimum = new decimal(new int[] {
+            1,
             0,
             0,
             0});
-			this.numInterval.Name = "numInterval";
-			this.numInterval.Size = new System.Drawing.Size(120, 22);
-			this.numInterval.TabIndex = 0;
-			this.numInterval.Value = new decimal(new int[] {
+            this.numInterval.Name = "numInterval";
+            this.numInterval.Size = new System.Drawing.Size(160, 26);
+            this.numInterval.TabIndex = 0;
+            this.numInterval.Value = new decimal(new int[] {
             1000,
             0,
             0,
             0});
-			this.numInterval.ValueChanged += new System.EventHandler(this.numInterval_ValueChanged);
-			// 
-			// btnStart
-			// 
-			this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnStart.Location = new System.Drawing.Point(15, 40);
-			this.btnStart.Name = "btnStart";
-			this.btnStart.Size = new System.Drawing.Size(75, 25);
-			this.btnStart.TabIndex = 1;
-			this.btnStart.Text = "Start";
-			this.btnStart.UseVisualStyleBackColor = true;
-			this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-			// 
-			// btnStop
-			// 
-			this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnStop.Location = new System.Drawing.Point(117, 40);
-			this.btnStop.Name = "btnStop";
-			this.btnStop.Size = new System.Drawing.Size(75, 25);
-			this.btnStop.TabIndex = 2;
-			this.btnStop.Text = "Stop";
-			this.btnStop.UseVisualStyleBackColor = true;
-			this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
-			// 
-			// tmrClick
-			// 
-			this.tmrClick.Interval = 1000;
-			this.tmrClick.Tick += new System.EventHandler(this.tmrClick_Tick);
-			// 
-			// lblInterval
-			// 
-			this.lblInterval.AutoSize = true;
-			this.lblInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblInterval.Location = new System.Drawing.Point(12, 14);
-			this.lblInterval.Name = "lblInterval";
-			this.lblInterval.Size = new System.Drawing.Size(54, 16);
-			this.lblInterval.TabIndex = 3;
-			this.lblInterval.Text = "Interval:";
-			// 
-			// frmMain
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(207, 73);
-			this.Controls.Add(this.lblInterval);
-			this.Controls.Add(this.btnStop);
-			this.Controls.Add(this.btnStart);
-			this.Controls.Add(this.numInterval);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-			this.MaximizeBox = false;
-			this.Name = "frmMain";
-			this.Text = "AutoClicker";
-			this.TopMost = true;
-			((System.ComponentModel.ISupportInitialize)(this.numInterval)).EndInit();
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.numInterval.ValueChanged += new System.EventHandler(this.numInterval_ValueChanged);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.Location = new System.Drawing.Point(20, 49);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(100, 31);
+            this.btnStart.TabIndex = 1;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // btnStop
+            // 
+            this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStop.Location = new System.Drawing.Point(156, 49);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(100, 31);
+            this.btnStop.TabIndex = 2;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // tmrClick
+            // 
+            this.tmrClick.Interval = 1000;
+            this.tmrClick.Tick += new System.EventHandler(this.tmrClick_Tick);
+            // 
+            // lblInterval
+            // 
+            this.lblInterval.AutoSize = true;
+            this.lblInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInterval.Location = new System.Drawing.Point(16, 17);
+            this.lblInterval.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblInterval.Name = "lblInterval";
+            this.lblInterval.Size = new System.Drawing.Size(68, 20);
+            this.lblInterval.TabIndex = 3;
+            this.lblInterval.Text = "Interval:";
+            // 
+            // frmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(276, 90);
+            this.Controls.Add(this.lblInterval);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.numInterval);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.Name = "frmMain";
+            this.Text = "AutoClicker";
+            this.TopMost = true;
+            ((System.ComponentModel.ISupportInitialize)(this.numInterval)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
